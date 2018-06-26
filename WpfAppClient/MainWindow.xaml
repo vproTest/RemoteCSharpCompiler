@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAppClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppClient"
+        mc:Ignorable="d" Height="350" Width="525" Name="MainWindow1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>       
+        <TextBox Name="TbSource" AcceptsReturn="True" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Auto"
+                 VerticalScrollBarVisibility="Visible" AcceptsTab="True"/>               
+        <DockPanel Grid.Row="1" LastChildFill="True">            
+            <Button Name="ButCompileFile" Content="Компилировать" DockPanel.Dock="Right" Margin="2" Click="ButCompileFile_ClickAsync"/>
+            <Button Name="ButSelectFile" Content="Файл" DockPanel.Dock="Right" Margin="2" Click="ButSelectFile_Click"/>            
+            <TextBox Name="TbFile" Margin="2" />           
+        </DockPanel>
+        <ListBox Grid.Row="2" Name="ListBox1"/>
+        <DockPanel Grid.Row="3" LastChildFill="True">
+            <TextBox Name="TbUri" Text="http://localhost:8080/RemoteCompiler" Width="300" HorizontalAlignment="Stretch"/>  
+            <ProgressBar Height="15" Name="Progress1" DockPanel.Dock="Right"/>                      
+        </DockPanel>        
+    </Grid>
+</Window>

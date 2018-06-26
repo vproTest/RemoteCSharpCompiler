@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="959da939-6b64-4268-9393-7fd86259c408" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/RemoteCompiler" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RemoteCompiler.xsd" MetadataType="Schema" ID="65d9b36c-a51a-47bf-8d66-46c4248f8c05" SourceId="1" SourceUrl="http://localhost:8080/RemoteCompiler?xsd=xsd1" />
+    <MetadataFile FileName="RemoteCompiler.wsdl" MetadataType="Wsdl" ID="09201806-be22-4cec-b7b2-9d828c6a3a22" SourceId="1" SourceUrl="http://localhost:8080/RemoteCompiler?wsdl" />
+    <MetadataFile FileName="RemoteCompiler1.xsd" MetadataType="Schema" ID="953af327-dc76-456c-b479-1f7d66835c0f" SourceId="1" SourceUrl="http://localhost:8080/RemoteCompiler?xsd=xsd0" />
+    <MetadataFile FileName="RemoteCompiler2.xsd" MetadataType="Schema" ID="43b8be14-3fbb-4093-bb78-83e6b92dda8f" SourceId="1" SourceUrl="http://localhost:8080/RemoteCompiler?xsd=xsd3" />
+    <MetadataFile FileName="RemoteCompiler3.xsd" MetadataType="Schema" ID="f6e9ef95-d235-4d31-b8d4-53a38835530b" SourceId="1" SourceUrl="http://localhost:8080/RemoteCompiler?xsd=xsd2" />
+    <MetadataFile FileName="RemoteCompiler.disco" MetadataType="Disco" ID="7f15194c-dd92-4055-a420-212313bc7953" SourceId="1" SourceUrl="http://localhost:8080/RemoteCompiler?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
