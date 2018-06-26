@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace RemoteCsharpCompiler
 {
     [DataContract] // контракт данных
-    class DataCompile // класс для отправки клиенту, представляет результат компиляции
+    class DataCompile // класс описывает объект для отправки клиенту, представляет результат компиляции
     {
         [DataMember] // член контракта данных
         public byte[] Output { get; set; } // список возможных ошибок

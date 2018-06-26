@@ -1,4 +1,4 @@
-﻿using System.CodeDom.Compiler;
+﻿using System.CodeDom.Compiler;  // содержит типы для управления созданием и компиляцией исходного кода
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
